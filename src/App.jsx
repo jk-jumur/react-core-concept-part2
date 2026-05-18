@@ -31,7 +31,7 @@ function App() {
 
           <button onClick={() => alert('click 4')}>click me 4</button>
 
-          <button onClick={() => handleAdd5(15)}>Click Add 5</button>
+          <button onClick={() => handleAdd5(30)}>Click Add 5</button>
        
      
     </>
