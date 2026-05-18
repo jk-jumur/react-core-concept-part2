@@ -11,8 +11,9 @@ function App() {
           alert('clicked 3')
     }
 
-    const handlerAdd5 = (num) {
-        
+    const handleAdd5 = (num) => {
+          const newNum = num + 5;
+          alert(newNum);
     }
    
 
@@ -29,6 +30,8 @@ function App() {
           <button onClick={handleClick3}>Click me 3</button>
 
           <button onClick={() => alert('click 4')}>click me 4</button>
+
+          <button onClick={() => handleAdd5(15)}>Click Add 5</button>
        
      
     </>
