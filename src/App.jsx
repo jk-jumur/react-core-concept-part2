@@ -5,7 +5,8 @@ import Batsman from './Batsman';
 import Users from './Users';
 import Friends from './Friends';
 import Posts from './Posts';
-import Photos from './Photos'
+import Photos from './Photos';
+import Players from './Players'
 import { Suspense } from 'react';
 
 
@@ -56,6 +57,7 @@ function App() {
      
      
           <h3>Vite + React</h3>
+            <Players></Players>
 
               <Suspense fallback={<h4>Photos are coming...</h4>}>
                  <Photos photosPromise={photosPromise}></Photos>
